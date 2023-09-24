@@ -1,27 +1,73 @@
-# KaiburrTask1-Ankit
-# Task 1: Java REST API Example
+KaiburrTask1-Ankit
+Task 1: Java REST API Example
 
-## Technologies Used :
-```
-Java
-Maven
-SpringBoot
-MongoDB
-```
-## Rest Api Endpoints
-* Put a server ```http://127.0.0.1:2017/addServer``` Add "server" object in JSON form.
+This project serves as an example of a Java-based REST API using the following technologies:
 
-* GET servers ```http://127.0.0.1:2017/getServers``` Returns a list of "server" objects.
+    Java
+    Maven
+    SpringBoot
+    MongoDB
 
-* GET server by id ```http://127.0.0.1:2017/getServers/{id}``` Returns a "server" object matching with id.
+REST API Endpoints
+Add Server
 
-* GET servers by name ```http://127.0.0.1:2017/getServer/{name}``` Returns a list of "server" objects matching with name.
+Endpoint: http://127.0.0.1:2017/addServer
 
-* DELETE server by id ```http://127.0.0.1:2017/deleteServer/{id}``` Deletes a "server" object matching with id. 
+Method: PUT
 
+Description: Add a new "server" object in JSON format.
+Get Servers
 
+Endpoint: http://127.0.0.1:2017/getServers
 
-## Thank You !!!
+Method: GET
 
+Description: Returns a list of "server" objects.
+Get Server by ID
 
+Endpoint: http://127.0.0.1:2017/getServers/{id}
 
+Method: GET
+
+Description: Returns a "server" object matching the given ID.
+Get Servers by Name
+
+Endpoint: http://127.0.0.1:2017/getServer/{name}
+
+Method: GET
+
+Description: Returns a list of "server" objects matching the given name.
+Delete Server by ID
+
+Endpoint: http://127.0.0.1:2017/deleteServer/{id}
+
+Method: DELETE
+
+Description: Deletes a "server" object matching the given ID.
+Setup Instructions
+
+    Clone the repository:
+    
+git clone https://github.com/your-username/KaiburrTask1-Ankit.git
+cd KaiburrTask1-Ankit
+
+    Build and run the application:
+
+mvn spring-boot:run
+
+    Access the API at http://127.0.0.1:2017.
+
+Dependencies
+
+    Java 8
+    Maven
+    Spring Boot
+    MongoDB
+
+Contributing
+
+If you'd like to contribute, please follow these steps:
+
+    Fork the repository.
+    Create a new branch for your feature or bug fix.
+    Make your changes and submit a pull request.
